@@ -1,0 +1,59 @@
+<html lang="pt-br">
+    <head>
+        <title>FORMULARIO</title>
+    </head>
+    <body>
+      <form method="post" action="url">
+            <table border="0">
+              <tr>
+                <td>Nome:</td>
+                <td>
+                  
+                        <input type="text" size="20" name="nome"/>
+                </td>
+              </tr>
+              <tr>
+                <td>Senha:</td>
+                <td>
+                        <input type="password" size="8" name="senha"/>
+                </td>
+              </tr>
+              <tr>
+                <td>Sistema Operacional:</td>
+                <td>
+                        <input type="checkbox" size="8" name="so" value="windows7" checked="checked"/> Windows 7
+                        <input type="checkbox" size="8" name="so" value="windows10" /> Windows 10
+                        <input type="checkbox" size="8" name="so" value="linux" /> Linux
+                        <input type="checkbox" size="8" name="so" value="macos" /> Mac Os
+                </td>
+              </tr>
+              <tr>
+                <td>Processador:</td>
+                <td>
+                        <input type="radio" name="Processador" value="Intel" checked="checked"/> Intel
+                        <input type="radio" name="Processador" value="AMD"/> AMD
+                        <input type="radio" name="Processador" value="Cyrux"/> Cyrux             
+                </td>
+              </tr>
+              <tr>
+                <td>Profissão:</td>
+                <td>
+                        <select size="1" name="profissão">
+                            <option>Engenheiro Civil</option>
+                            <option>Engenheiro Ambiental</option>
+                            <option>Engenheiro de Minas</option>
+                        </select>           
+                </td>
+              </tr>
+              <tr>
+                <td>Comentários:</td>
+                <td>
+                        <textarea rows="10" cols="70" name="mensagem"></textarea><br>
+                        <input type="submit" value="Enviar Dados">       
+                        <input type="reset" value="Apagar Dados">       
+                </td>
+              </tr>
+            </table>
+      </form>
+    </body>
+</html>
